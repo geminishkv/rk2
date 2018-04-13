@@ -5,10 +5,4 @@ script:
 - cmake --build _build
 - cmake --build _build --target install
 
-addons:
-  apt:
-    sources:
-      - george-edison55-precise-backports
-    packages:
-      - cmake
-      - cmake-data
+
