@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##Demo program for RK2
 
 #This program displays the value of the environment variable NAME if it exists. Voevoda E & Shmakov I & Chepik P
@@ -22,3 +23,10 @@ $ git pull origin master
 $ git add .
 $ git commit -m"..."
 $ git push origin master
+=======
+# Demo program for RK2
+
+This program displays the value of the environment variable NAME if it exists.
+Voevoda E & Shmakov I
+BMSTU IU8-21M
+>>>>>>> 683b37ee1cf020a73ffa5e991c17d9f1bb07d7cd
