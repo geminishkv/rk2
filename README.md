@@ -38,6 +38,6 @@ Tests:
 $ _build/check -s -r compact
 $ cmake --build _build --target test -- ARGS=--verbose
 
-interprice doxygen:
+interprice 4doxygen:
 $ cat docs/doxygen.conf | less
 
