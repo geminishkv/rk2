@@ -29,4 +29,15 @@ $ git push origin master
 This program displays the value of the environment variable NAME if it exists.
 Voevoda E & Shmakov I
 BMSTU IU8-21M
->>>>>>> 683b37ee1cf020a73ffa5e991c17d9f1bb07d7cd
+
+Warnings:
+$ travis lint
+
+Tests:
+
+$ _build/check -s -r compact
+$ cmake --build _build --target test -- ARGS=--verbose
+
+interprice doxygen:
+$ cat docs/doxygen.conf | less
+
