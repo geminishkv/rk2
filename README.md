@@ -12,7 +12,7 @@ BMSTU IU8-21M
 
 ##Edit working(Build):
 
-#    for unix systems
+#    for unix systems, because uses .gitignore 
 $ git clone https://github.com/geminishkv/lr4 or https://github.com/Neisoweli/lr4
 $ cd 
 $ cmake -H. -B_builds
