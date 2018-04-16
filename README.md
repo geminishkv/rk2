@@ -1,4 +1,5 @@
-# Demo program
+# Demo program for RK2
 
 This program displays the value of the environment variable NAME if it exists.
-231
+Voevoda E & Shmakov I
+BMSTU IU8-21M
