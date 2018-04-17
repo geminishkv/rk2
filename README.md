@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  Demo program for RK2 [![Build Status](https://travis-ci.org/Neisoweli/lr4.svg?branch=master)](https://travis-ci.org/Neisoweli/lr4)
 
 This program displays the value of the environment variable NAME if it exists. 
@@ -48,3 +49,9 @@ Init docker:
 $ docker inspect logger
 $ cat logs/log.txt
 
+=======
+[![Build Status](https://travis-ci.org/geminishkv/rk2.svg?branch=master)](https://travis-ci.org/geminishkv/rk2)
+
+
+#RK2_release
+>>>>>>> 45730a3c6bd4887138f56be01f0cabaacee70bfd
