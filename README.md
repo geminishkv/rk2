@@ -35,9 +35,21 @@ $ travis lint
 
 Tests:
 
-$ _build/check -s -r compact
-$ cmake --build _build --target test -- ARGS=--verbose
+$ _build/check -s -r compact - smalldesccript
+$ cmake --build _build --target test -- ARGS=--verbose - alldescript
 
 interprice 4doxygen:
 $ cat docs/doxygen.conf | less
+
+docker: init Kate, because i had some denied permission by pass
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.26/build?buildargs=%7B%7D&cachefrom=%5B%5D&cgroupparent=&cpuperiod=0&cpuquota=0&cpusetcpus=&cpusetmems=&cpushares=0&dockerfile=Dockerfile&labels=%7B%7D&memory=0&memswap=0&networkmode=default&rm=1&shmsize=0&t=logger&ulimits=null: dial unix /var/run/docker.sock: connect: permission denied
+
+$ docker build -t logger .
+$ mkdir logs
+$ docker run -it -v "$(pwd)/logs/:/home/logs/" logger
+
+
+Init docker:
+$ docker inspect logger
+$ cat logs/log.txt
 

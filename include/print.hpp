@@ -5,3 +5,6 @@
 void print(const std::string& text, std::ostream& out = std::cout);
 ///second print construction
 void print(const std::string& text, std::ofstream& out);
+
+
+
